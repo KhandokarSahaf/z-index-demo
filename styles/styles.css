@@ -20,3 +20,26 @@
 top: -90px;
 z-index: 1;
 }
+
+/* pseudo elements */
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3::after{
+    content: ".Pdf";
+    color: red;
+    background-color: yellow;
+    font-size: 15px;
+}
+
+h3::before{
+    content: "Start";
+    color: rgb(6, 4, 0);
+    background-color: rgb(255, 0, 0);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 100%;
+}
