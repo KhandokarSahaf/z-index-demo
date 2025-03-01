@@ -43,3 +43,22 @@ h3::before{
     padding: 8px;
     border-radius: 100%;
 }
+
+p{
+    font-size: 20px;
+    width: 900px;
+    margin: 30px auto 0;
+    color: blue;
+}
+
+p::first-letter{
+    font-size: 2rem;
+}
+
+p::first-line{
+    background-color: chartreuse;
+}
+
+::selection{
+    color: darkmagenta;
+}
